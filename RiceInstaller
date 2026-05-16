@@ -310,7 +310,7 @@ install_aur_dependencies() {
         cd
     fi
 
-    aur_dependencies="xwinwrap-0.9-bin i3lock-color simple-mtpfs fzf-tab-git"
+    aur_dependencies="xwinwrap-0.9-bin i3lock-color simple-mtpfs fzf-tab-git brave-bin"
 
     # Arrays temporales
     failed_aur_deps=""
