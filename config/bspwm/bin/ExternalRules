@@ -41,10 +41,13 @@ case "$class" in
         result "state=floating center=on"
         ;;
     Thunar)
-        result "desktop=^2 follow=on"
+        result "desktop=^1 follow=on"
         ;;
     Brave-browser|Navigator)
         result "desktop=^3 follow=on"
+        ;;
+    Spotify)
+        result "desktop=^2 follow=on"
         ;;
 esac
 
