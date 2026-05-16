@@ -57,6 +57,8 @@ run() {
   fi
 }
 
+xset r rate 200 30 &
+
 # Set system vars for polybar
 "$HOME"/.config/bspwm/bin/SetSysVars
 
@@ -80,6 +82,10 @@ run clipcatd
 
 # Launch polkit
 run lxpolkit
+
+# Spotify notify
+pkill -f spotify-notify.sh
+~/.config/bspwm/bin/spotify-notify.sh &
 
 # Start one time message
 [ ! -f "$HOME/.config/bspwm/config/.first_run_done" ] && alacritty --hold -e sh -c 'cat "$HOME/.config/bspwm/config/FirstMessage.txt"; sleep 0.1' && touch "$HOME/.config/bspwm/config/.first_run_done"
