@@ -95,6 +95,9 @@ gtk_theme="Nord-zk"
 gtk_icons="Vimix-White"
 gtk_cursor="Qogirr"
 geany_theme="z0mbi3-Nord"
+helix_theme="nord-night"
+spicetify_theme="Dribbblish"
+spicetify_colorscheme="nord-dark"
 
 # Wallpaper engine
 # Available engines:

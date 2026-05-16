@@ -95,6 +95,9 @@ gtk_theme="Decayce-zk"
 gtk_icons="Luv-Folders"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-Decay"
+helix_theme="amberwood"
+spicetify_theme="Sleek"
+spicetify_colorscheme="elementary"
 
 # Wallpaper engine
 # Available engines:

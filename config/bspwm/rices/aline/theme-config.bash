@@ -95,6 +95,9 @@ gtk_theme="RosePineDawn-zk"
 gtk_icons="Luv-Folders"
 gtk_cursor="Qogirr"
 geany_theme="z0mbi3-RosePineDawn"
+helix_theme="rose_pine_dawn"
+spicetify_theme="Dribbblish"
+spicetify_colorscheme="catppuccin-latte"
 
 # Wallpaper engine
 # Available engines:
@@ -106,5 +109,5 @@ geany_theme="z0mbi3-RosePineDawn"
 ENGINE="Default"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
-DEFAULT_WALL="$HOME/.config/bspwm/rices/aline/walls/wall-01.webp"
+DEFAULT_WALL="/home/leandro/.config/bspwm/rices/aline/walls/wall-02.webp"
 ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"

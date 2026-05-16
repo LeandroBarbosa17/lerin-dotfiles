@@ -95,6 +95,9 @@ gtk_theme="TokyoNight-zk"
 gtk_icons="TokyoNight-SE"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-TokyoNight"
+helix_theme="tokyonight_moon"
+spicetify_theme="Dribbblish"
+spicetify_colorscheme="tokyo-night"
 
 # Wallpaper engine
 # Available engines:

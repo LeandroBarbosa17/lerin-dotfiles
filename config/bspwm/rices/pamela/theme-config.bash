@@ -95,6 +95,9 @@ gtk_theme="LoveLace-zk"
 gtk_icons="Luv-Folders"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-LoveLace"
+helix_theme="adwaita-dark"
+spicetify_theme="Sleek"
+spicetify_colorscheme="bladerunner"
 
 # Wallpaper engine
 # Available engines:

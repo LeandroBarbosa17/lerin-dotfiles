@@ -95,6 +95,9 @@ gtk_theme="MonochromeBlue-zk"
 gtk_icons="Vimix-White"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-Monochromatic"
+helix_theme="hex_lavender"
+spicetify_theme="Dreary"
+spicetify_colorscheme="mono"
 
 # Wallpaper engine
 # Available engines:

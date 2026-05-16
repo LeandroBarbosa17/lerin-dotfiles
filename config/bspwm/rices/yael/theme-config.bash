@@ -95,6 +95,9 @@ gtk_theme="OxoCarbon-zk"
 gtk_icons="Glassy"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-OxoCarbon"
+helix_theme="carbon"
+spicetify_theme="SharkBlue"
+spicetify_colorscheme="Base"
 
 # Wallpaper engine
 # Available engines:

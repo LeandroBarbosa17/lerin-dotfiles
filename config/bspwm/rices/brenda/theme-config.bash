@@ -95,6 +95,9 @@ gtk_theme="Everforest-zk"
 gtk_icons="Gruvbox-Plus-Dark"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-EverForest"
+helix_theme="everforest_dark"
+spicetify_theme="Dribbblish"
+spicetify_colorscheme="base"
 
 # Wallpaper engine
 # Available engines:

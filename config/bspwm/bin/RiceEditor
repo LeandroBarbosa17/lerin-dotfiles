@@ -1651,7 +1651,7 @@ class RiceEditorApp(Gtk.Window):
                 pkill xwinwrap;
                 [ -f /tmp/wall_refresh.pid ] && kill $(cat /tmp/wall_refresh.pid) 2>/dev/null;
                 rm -f /tmp/wall_refresh.pid;
-                AnimatedWall --start "{entry.get_text()}":
+                AnimatedWall --start "{entry.get_text()}"
                 WallSync --animated &
                 '''
             elif engine == "Slideshow":

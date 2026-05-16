@@ -95,6 +95,9 @@ gtk_theme="Andrea-zk"
 gtk_icons="Luv-Folders"
 gtk_cursor="Qogirr"
 geany_theme="z0mbi3-Andrea"
+helix_theme="ayu_light"
+spicetify_theme="Dribbblish"
+spicetify_colorscheme="white"
 
 # Wallpaper engine
 # Available engines:

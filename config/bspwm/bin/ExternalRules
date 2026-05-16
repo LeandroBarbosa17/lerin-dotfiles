@@ -43,7 +43,7 @@ case "$class" in
     Thunar)
         result "desktop=^2 follow=on"
         ;;
-    firefox|Navigator)
+    Brave-browser|Navigator)
         result "desktop=^3 follow=on"
         ;;
 esac

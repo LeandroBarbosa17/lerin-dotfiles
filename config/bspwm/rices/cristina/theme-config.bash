@@ -30,8 +30,8 @@ arch_icon="#0f94d2"
 
 # Bspwm options
 BORDER_WIDTH="0"		# Bspwm border
-TOP_PADDING="1"
-BOTTOM_PADDING="53"
+TOP_PADDING="53"
+BOTTOM_PADDING="1"
 LEFT_PADDING="1"
 RIGHT_PADDING="1"
 NORMAL_BC="#9bced7"		# Normal border color
@@ -52,7 +52,7 @@ P_TERM_OPACITY="1.0"	# Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
 
 # Dunst
 dunst_offset='(0, 10)'
-dunst_origin='top-center'
+dunst_origin='top-right'
 dunst_transparency='0'
 dunst_corner_radius='6'
 dunst_font='JetBrainsMono NF Medium 9'
@@ -61,9 +61,9 @@ dunst_frame_color="$magenta"
 dunst_icon_theme="Catppuccin-Mocha"
 # Dunst animations
 dunst_close_preset="fly-out"
-dunst_close_direction="up"
+dunst_close_direction="right"
 dunst_open_preset="fly-in"
-dunst_open_direction="up"
+dunst_open_direction="right"
 
 # Jgmenu colors
 jg_bg="$bg"
@@ -95,6 +95,9 @@ gtk_theme="RosePineMoon-zk"
 gtk_icons="Catppuccin-Mocha"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-RosePineMoon"
+helix_theme="rose_pine_moon"
+export spicetify_theme="Ziro"
+export spicetify_colorscheme="rose-pine-moon"
 
 # Wallpaper engine
 # Available engines:
@@ -107,4 +110,4 @@ ENGINE="Default"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
 DEFAULT_WALL="$HOME/.config/bspwm/rices/cristina/walls/wall-01.webp"
-ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"
+ANIMATED_WALL="/home/leandro/.config/bspwm/config/assets/jake_the_dog.mp4"

@@ -95,6 +95,9 @@ gtk_theme="KanagawaDragon-zk"
 gtk_icons="Gruvbox-Plus-Dark"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-KanagawaDragon"
+helix_theme="kanagawa-dragon"
+spicetify_theme="Dribbblish"
+spicetify_colorscheme="kanagawa"
 
 # Wallpaper engine
 # Available engines:

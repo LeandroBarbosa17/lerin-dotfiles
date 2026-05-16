@@ -95,6 +95,9 @@ gtk_theme="z0mbi3Night-zk"
 gtk_icons="Sweet-Rainbow"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-z0mbi3Night"
+helix_theme="modus_vivendi_tritanopia"
+spicetify_theme="Dribbblish"
+spicetify_colorscheme="lunar"
 
 # Wallpaper engine
 # Available engines:
