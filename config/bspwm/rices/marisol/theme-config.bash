@@ -96,8 +96,8 @@ gtk_icons="Dracula"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-Dracula"
 helix_theme="dracula_at_night"
-spicetify_theme="Dribbblish"
-spicetify_colorscheme="dracula"
+spicetify_theme="Sleek"
+spicetify_colorscheme="Dracula"
 
 # Wallpaper engine
 # Available engines:

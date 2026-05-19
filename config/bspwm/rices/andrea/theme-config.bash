@@ -96,8 +96,8 @@ gtk_icons="Luv-Folders"
 gtk_cursor="Qogirr"
 geany_theme="z0mbi3-Andrea"
 helix_theme="ayu_light"
-spicetify_theme="Dribbblish"
-spicetify_colorscheme="white"
+spicetify_theme="Ziro"
+spicetify_colorscheme="blue-light"
 
 # Wallpaper engine
 # Available engines:

@@ -96,8 +96,8 @@ gtk_icons="Catppuccin-Mocha"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-CatppuccinMocha"
 helix_theme="catppuccin_mocha"
-spicetify_theme="Dribbblish"
-spicetify_colorscheme="catppuccin-mocha"
+spicetify_theme="Catppuccin"
+spicetify_colorscheme="mocha"
 
 # Wallpaper engine
 # Available engines:

@@ -96,8 +96,8 @@ gtk_icons="TokyoNight-SE"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-TokyoNight"
 helix_theme="tokyonight_moon"
-spicetify_theme="Dribbblish"
-spicetify_colorscheme="tokyo-night"
+spicetify_theme="text"
+spicetify_colorscheme="TokyoNight"
 
 # Wallpaper engine
 # Available engines:
@@ -109,5 +109,5 @@ spicetify_colorscheme="tokyo-night"
 ENGINE="Default"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
-DEFAULT_WALL="$HOME/.config/bspwm/rices/emilia/walls/wall-01.webp"
+DEFAULT_WALL="/home/leandro/.config/bspwm/rices/emilia/walls/wall-04.webp"
 ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"

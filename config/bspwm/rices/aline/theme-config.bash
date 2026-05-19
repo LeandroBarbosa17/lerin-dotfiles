@@ -96,8 +96,8 @@ gtk_icons="Luv-Folders"
 gtk_cursor="Qogirr"
 geany_theme="z0mbi3-RosePineDawn"
 helix_theme="rose_pine_dawn"
-spicetify_theme="Dribbblish"
-spicetify_colorscheme="catppuccin-latte"
+spicetify_theme="Catppuccin"
+spicetify_colorscheme="latte"
 
 # Wallpaper engine
 # Available engines:

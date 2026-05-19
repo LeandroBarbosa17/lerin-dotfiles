@@ -96,8 +96,8 @@ gtk_icons="Gruvbox-Plus-Dark"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-Gruvbox"
 helix_theme="gruvbox"
-spicetify_theme="Dribbblish"
-spicetify_colorscheme="gruvbox"
+spicetify_theme="Onepunch"
+spicetify_colorscheme="dark"
 
 # Wallpaper engine
 # Available engines:
@@ -109,5 +109,5 @@ spicetify_colorscheme="gruvbox"
 ENGINE="Default"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
-DEFAULT_WALL="$HOME/.config/bspwm/rices/silvia/walls/wall-01.webp"
+DEFAULT_WALL="/home/leandro/.config/bspwm/rices/silvia/walls/wall-03.webp"
 ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"

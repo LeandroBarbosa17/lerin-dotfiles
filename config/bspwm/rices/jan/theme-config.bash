@@ -95,7 +95,7 @@ gtk_theme="CyberPunk-zk"
 gtk_icons="BeautyLine"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-CyberPunk"
-helix_theme="ataraxia"
+helix_theme="lucy"
 spicetify_theme="Nightlight"
 #spicetify_colorscheme="catppuccin-latte"
 

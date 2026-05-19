@@ -96,8 +96,8 @@ gtk_icons="Zafiro-Purple"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-OneDark"
 helix_theme="onedark"
-spicetify_theme="Dribbblish"
-spicetify_colorscheme="dark"
+spicetify_theme="Dreary"
+spicetify_colorscheme="BIB"
 
 # Wallpaper engine
 # Available engines:
