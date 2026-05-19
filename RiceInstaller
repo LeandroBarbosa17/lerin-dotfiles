@@ -302,10 +302,10 @@ install_aur_dependencies() {
     logo "Installing AUR dependencies..."
     sleep 2
 
-    if ! command -v paru >/dev/null 2>&1; then
-        printf "%b\n" "${BLD}${CYE}Installing PARU${CNC}"
-        git clone https://aur.archlinux.org/paru.git
-        cd paru
+    if ! command -v yay >/dev/null 2>&1; then
+        printf "%b\n" "${BLD}${CYE}Installing YAY${CNC}"
+        git clone https://aur.archlinux.org/yay.git
+        cd yay
         makepkg -si
         cd
     fi
@@ -319,7 +319,7 @@ install_aur_dependencies() {
     # First pass
     for aur_pkg in $aur_dependencies; do
         sleep 0.50
-        if ! paru -S --skipreview --noconfirm "$aur_pkg"; then
+        if ! yay -S --noconfirm --needed "$aur_pkg"; then
             failed_aur_deps="$failed_aur_deps $aur_pkg"
         fi
     done
@@ -331,7 +331,7 @@ install_aur_dependencies() {
 
         for aur_pkg in $failed_aur_deps; do
             sleep 0.50
-            if ! paru -S --skipreview --noconfirm "$aur_pkg"; then
+            if ! paru -S --noconfirm --needed "$aur_pkg"; then
                 retry_aur_failed="$retry_aur_failed $aur_pkg"
             fi
         done
@@ -397,7 +397,7 @@ backup_existing_config() {
     sleep 1
 
     # Dirs in ~/.config/
-    cfg_dir="bspwm alacritty clipcat picom rofi eww sxhkd dunst kitty polybar geany gtk-3.0 ncmpcpp yazi zsh mpd paru"
+    cfg_dir="bspwm alacritty clipcat picom rofi eww sxhkd dunst kitty polybar geany gtk-3.0 ncmpcpp yazi zsh mpd"
     for cfg in $cfg_dir; do
         [ -d "$HOME/.config/$cfg" ] && mv "$HOME/.config/$cfg" "$backup_folder"
     done
@@ -431,7 +431,7 @@ install_dotfiles() {
     done
 
     # Copy files to ~/.config
-    dots_config_dir="alacritty bspwm clipcat geany gtk-3.0 kitty mpd ncmpcpp paru systemd yazi zsh"
+    dots_config_dir="alacritty bspwm clipcat geany gtk-3.0 kitty mpd ncmpcpp systemd yazi zsh"
     for dots_cfg in $dots_config_dir; do
         cp -R "$HOME/.local/share/gh0stzk/config/$dots_cfg" "$HOME/.config/"
     done
