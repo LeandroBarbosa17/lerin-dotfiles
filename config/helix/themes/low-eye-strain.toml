@@ -1,0 +1,140 @@
+# Low-Eye-Strain Helix Theme
+# Copyright: "Gokay BURUC"
+# Theme Creator :https://github.com/gokayburuc
+# Created : 2025-05-09
+
+# FIX: convert pastel colors
+
+# Attribute Highlights 
+'attribute' = { fg = 'blue' }
+
+# Comment Highlights 
+'comment' = { fg = 'gray', modifiers = ['italic'] }
+# 'comment.block' = { fg = 'green', modifiers = ['italic'] }
+# 'comment.block.documentation' = { fg = 'green', modifiers = ['italic'] }
+
+# Constant Highlights
+'constant' = { fg = 'magenta' }
+# 'constant.builtin' = { fg = '' }
+# 'constant.builtin.boolean' = { fg = 'yellow' }
+# 'constant.character' = {fg = 'cyan'}
+# 'constant.character.escape' = {}
+# 'constant.numeric' = { fg = 'orange' }
+# 'constant.numeric.float' = {}
+# 'constant.numeric.integer' = {}
+
+# Function Highlights
+'function' = { fg = 'yellow', modifier = ['italic', 'bold'] }
+# 'function.builtin' = { fg = 'blue' }
+# 'function.method' = { fg = 'white' }
+
+# Keyword Highlights 
+'keyword' = { fg = 'red' }
+
+# Label Highlights 
+'label' = { fg = 'green' }
+
+# Namespace Highlights
+'namespace' = { fg = 'white' }
+
+# Operator Highlights 
+'operator' = { fg = 'blue' }
+
+# Punctuation Highlights 
+# 'punctuation.bracket' = { fg = 'blue' }
+# 'punctuation.delimiter' = { fg = 'white', modifiers = ['bold'] }
+# 'punctuation.bracket' = { fg = 'red' }
+# 'punctuation.delimiter' = { fg = 'red', modifiers = ['bold'] }
+# 'punctuation.special' = { fg = 'red' }
+'punctuation' = { fg = 'red', modifiers = ['bold'] }
+
+# String Highlights 
+'string' = { fg = 'green' }
+
+# Tag Highlights 
+'tag' = { fg = 'red', modifier = ['bold'] }
+
+# Type Highlights 
+'type' = { fg = 'blue' }
+
+# Variable Highlights 
+'variable' = { fg = 'cyan' }
+'variable.parameter' = { fg = 'white' }
+
+# Markup Highlights
+'markup.bold' = { fg = 'orange', modifiers = ['bold'] }
+'markup.italic' = { fg = 'magenta', modifiers = ['italic'] }
+'markup.strikethrough' = { modifiers = ['crossed_out'] }
+'markup.heading' = { fg = 'red' }
+'markup.link' = { fg = 'orange' }
+'markup.link.url' = { fg = 'magenta' }
+'markup.link.text' = { fg = 'orange' }
+'markup.link.label' = { fg = 'green' }
+'markup.list' = { fg = 'red' }
+'markup.quote' = { fg = 'green', modifiers = ['italic'] }
+'markup.raw.block' = { fg = 'green', bg = 'bg' }
+'markup.raw.inline' = { fg = 'green', bg = 'bg' }
+
+# Diff Highlights 
+'diff.plus' = { fg = 'green' }
+'diff.minus' = { fg = 'red' }
+'diff.delta' = { fg = 'blue' }
+
+
+# UI Highights
+'ui.background' = { bg = 'bg' }
+'ui.bufferline' = { fg = 'gray', bg = 'base2' }
+'ui.bufferline.active' = { fg = 'white', bg = 'base4' }
+'ui.bufferline.background' = { bg = 'bg' }
+'ui.cursor' = { bg = 'orange', fg = 'base2' }
+'ui.cursor.match' = { fg = 'red', modifiers = ['bold'] }
+'ui.cursorline' = { bg = 'base2' }
+'ui.help' = { fg = 'fg', bg = 'base2' }
+'ui.linenr' = { fg = 'base4' }
+'ui.linenr.selected' = { fg = 'orange', bg = 'base2', modifiers = ['bold'] }
+'ui.menu' = { fg = 'fg', bg = 'base2' }
+'ui.menu.selected' = { bg = 'base3', fg = 'fg' }
+'ui.popup' = { bg = 'base2' }
+'ui.selection' = { bg = 'base2' }
+'ui.statusline' = { fg = 'fg', bg = 'base3' }
+'ui.statusline.insert' = { bg = 'base3' }
+'ui.statusline.normal' = { bg = 'base3' }
+'ui.statusline.select' = { bg = 'base3' }
+'ui.text' = { fg = 'fg' }
+'ui.text.focus' = { bg = 'base2', fg = 'fg' }
+'ui.text.info' = { fg = 'fg' }
+'ui.virtual.ruler' = { bg = 'black' }
+'ui.virtual.whitespace' = { fg = 'base2' }
+'ui.window' = { fg = 'gray' }
+
+'warning' = { fg = 'orange' }
+'error' = { fg = 'red', modifiers = ['bold'] }
+'info' = { fg = 'blue', modifiers = ['bold'] }
+'hint' = { fg = 'blue', modifiers = ['bold'] }
+
+'diagnostic.hint' = { underline = { color = 'red', style = "curl" } }
+'diagnostic.error' = { underline = { color = 'red', style = "curl" } }
+'diagnostic.info' = { underline = { color = 'blue', style = "curl" } }
+'diagnostic.warning' = { underline = { color = 'yellow', style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+'special' = { fg = 'orange' }
+
+[palette]
+white = '#ffffff'
+black = '#000113'
+red = '#C2474E'
+green = '#50DD5E'
+blue = '#095390'
+yellow = '#FFFF78'
+magenta = '#B370CC'
+cyan = '#6BC7B1'
+gray = '#06365e'
+orange = '#e7c584'
+
+fg = '#ffffff'
+bg = '#000113'
+base2 = '#161722'
+base3 = '#252632'
+base4 = '#353642'
