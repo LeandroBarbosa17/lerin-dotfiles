@@ -110,4 +110,4 @@ ENGINE="Default"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
 DEFAULT_WALL="/home/leandro/.config/bspwm/rices/aline/walls/wall-02.webp"
-ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"
+ANIMATED_WALL="/home/leandro/.config/bspwm/config/assets/animated_wall-7.mp4"

@@ -92,6 +92,10 @@ super + alt + k
 super + alt + x
     OpenApps --pass
 
+# Usercard
+super + c
+    OpenApps --usercard
+
 # ----- Environment Apps ----- #
 
 # Scratchpad
