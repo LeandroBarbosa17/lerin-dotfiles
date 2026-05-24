@@ -7,6 +7,8 @@ sed -i \
     -e "s/^color_scheme *= *.*/color_scheme = $spicetify_colorscheme/" \
     "$CONFIG"
 
+/home/leandro/.spicetify/spicetify config extensions "adblock.js|keyboardShortcut.js"
+
 pkill -x spotify
 sleep 1
 

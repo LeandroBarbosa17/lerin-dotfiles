@@ -109,5 +109,5 @@ spicetify_colorscheme="mono"
 ENGINE="Default"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
-DEFAULT_WALL="/home/leandro/.config/bspwm/rices/varinka/walls/wall-03.webp"
+DEFAULT_WALL="/home/leandro/.config/bspwm/rices/varinka/walls/463609.jpg"
 ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"
