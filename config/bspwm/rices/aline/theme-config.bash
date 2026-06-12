@@ -109,5 +109,5 @@ spicetify_colorscheme="latte"
 ENGINE="Default"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
-DEFAULT_WALL="/home/leandro/.config/bspwm/rices/aline/walls/wall-02.webp"
+DEFAULT_WALL="/home/leandro/.config/bspwm/rices/aline/walls/1992902-final.png"
 ANIMATED_WALL="/home/leandro/.config/bspwm/config/assets/animated_wall-7.mp4"

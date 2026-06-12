@@ -1,0 +1,66 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "/home/leandro/.config/bspwm/config/assets/Fastfetch.png",
+    "type": "kitty",
+    "width": 28,
+    "height": 14,
+    "padding": {
+      "top": 1,
+      "left": 2,
+      "right": 4
+    }
+  },
+  "display": {
+    "separator": " → ",
+    "key": {
+      // Força o Fastfetch a NÃO alinhar em colunas. 
+      // O separador " → " vai colar logo após o texto da chave.
+      "width": 0 
+    }
+  },
+  "modules": [
+    "break", // <-- Pula uma linha logo no topo ao rodar o comando
+
+    {
+      "type": "title",
+      "format": "\u001b[35m{1}\u001b[37m@\u001b[34m{2}", // Roxo@Azul (Ex: lieenvelope@pancracio)
+      "display": {
+        "separator": "" // <-- Remove especificamente a seta deste módulo
+      }
+    },
+    "break",
+
+    // Bloco de OS (Usando cores ANSI para cada um)
+    { "type": "os", "key": "\u001b[35m󰣇 OS" },
+    { "type": "kernel", "key": "\u001b[34m󰗘 Kernel" },
+    { "type": "uptime", "key": "\u001b[34m󱎫 Uptime" },
+    { "type": "packages", "key": "\u001b[32m󰏖 Packages" },
+    { "type": "shell", "key": "\u001b[32m󱆃 Shell" },
+     
+    { "type": "custom", "format": "\u001b[34m──────────────────────────────────────" },
+
+    // Bloco de Interface Gráfica
+    { "type": "wm", "key": "\u001b[33m󱂬 WM" }, 
+    { "type": "icons", "key": "\u001b[35m󰀻 Icons" },
+    { "type": "terminal", "key": "\u001b[35m󰆍 Terminal" },
+    { "type": "font", "key": "\u001b[34m󰛖 Font" },
+
+    { "type": "custom", "format": "\u001b[34m──────────────────────────────────────" },
+
+    // Bloco de Hardware
+    { "type": "cpu", "key": "\u001b[34m󰻠 CPU" },
+    { "type": "gpu", "key": "\u001b[32m󰾲 GPU" },
+    { "type": "memory", "key": "\u001b[32m󰍛 RAM" },
+    { "type": "disk", "key": "\u001b[33m󰋊 Disk", "folders": "/" },
+    { "type": "disk", "key": "\u001b[33m󰋊 Disk", "folders": "/home" },
+
+    { "type": "custom", "format": "\u001b[34m──────────────────────────────────────" },
+     
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+  ]
+}

@@ -109,5 +109,5 @@ spicetify_colorscheme="TokyoNight"
 ENGINE="Default"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
-DEFAULT_WALL="/home/leandro/.config/bspwm/rices/emilia/walls/wall-04.webp"
+DEFAULT_WALL="/home/leandro/.config/bspwm/rices/emilia/walls/1991670-final.jpeg"
 ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"

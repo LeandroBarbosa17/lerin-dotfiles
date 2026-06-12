@@ -73,7 +73,7 @@ case "$1" in
 		thunar
 		;;
 	--browser)
-		brave
+		chromium
 		;;
 	--editor)
 		geany

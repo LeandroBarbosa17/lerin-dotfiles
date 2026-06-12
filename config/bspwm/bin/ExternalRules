@@ -43,7 +43,7 @@ case "$class" in
     Thunar)
         result "desktop=^1 follow=on"
         ;;
-    Brave-browser|Navigator)
+    Chromium|Navigator)
         result "desktop=^3 follow=on"
         ;;
     Spotify)
