@@ -160,7 +160,7 @@ install_dependencies() {
     sleep 2
 
     sudo pacman -Syy
-    dependencies="alacritty base-devel bat brightnessctl bspwm clipcat dunst eza feh fzf thunar tumbler gvfs-mtp firefox geany git imagemagick jq jgmenu kitty libwebp maim mpc mpd mpv neovim xcolor ncmpcpp npm pamixer pacman-contrib papirus-icon-theme picom playerctl polybar lxsession python-gobject redshift rofi rustup sxhkd xclip xdg-user-dirs xdo xdotool xsettingsd xorg-xdpyinfo xorg-xkill xorg-xprop xorg-xrandr xorg-xsetroot xorg-xwininfo xorg-xrdb yazi zsh zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting ttf-inconsolata ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-terminus-nerd ttf-ubuntu-mono-nerd webp-pixbuf-loader helix btop fastfetch os-prober xorg-xset unzip noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra"
+    dependencies="alacritty base-devel bat brightnessctl bspwm clipcat dunst eza feh fzf thunar tumbler gvfs-mtp firefox geany git imagemagick jq jgmenu kitty libwebp maim mpc mpd mpv neovim xcolor ncmpcpp npm pamixer pacman-contrib papirus-icon-theme picom playerctl polybar lxsession python-gobject redshift rofi rustup sxhkd xclip xdg-user-dirs xdo xdotool xsettingsd xorg-xdpyinfo xorg-xkill xorg-xprop xorg-xrandr xorg-xsetroot xorg-xwininfo xorg-xrdb yazi zsh zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting ttf-inconsolata ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-terminus-nerd ttf-ubuntu-mono-nerd webp-pixbuf-loader helix btop fastfetch os-prober xorg-xset unzip noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra chromium chromium-widevine"
 
     # Arrays temporales
     failed_deps=""
@@ -310,7 +310,7 @@ install_aur_dependencies() {
         cd
     fi
 
-    aur_dependencies="xwinwrap-0.9-bin i3lock-color simple-mtpfs fzf-tab-git brave-bin spotify"
+    aur_dependencies="xwinwrap-0.9-bin i3lock-color simple-mtpfs fzf-tab-git spotify"
 
     # Arrays temporales
     failed_aur_deps=""
@@ -397,7 +397,7 @@ backup_existing_config() {
     sleep 1
 
     # Dirs in ~/.config/
-    cfg_dir="bspwm alacritty clipcat picom rofi eww sxhkd dunst kitty polybar geany gtk-3.0 ncmpcpp yazi zsh mpd helix"
+    cfg_dir="bspwm alacritty clipcat picom rofi eww sxhkd dunst kitty polybar geany gtk-3.0 ncmpcpp yazi zsh mpd helix fastfetch"
     for cfg in $cfg_dir; do
         [ -d "$HOME/.config/$cfg" ] && mv "$HOME/.config/$cfg" "$backup_folder"
     done
@@ -431,7 +431,7 @@ install_dotfiles() {
     done
 
     # Copy files to ~/.config
-    dots_config_dir="alacritty bspwm clipcat geany gtk-3.0 kitty mpd ncmpcpp systemd yazi zsh helix"
+    dots_config_dir="alacritty bspwm clipcat geany gtk-3.0 kitty mpd ncmpcpp systemd yazi zsh helix fastfetch"
     for dots_cfg in $dots_config_dir; do
         cp -R "$HOME/.local/share/gh0stzk/config/$dots_cfg" "$HOME/.config/"
     done
