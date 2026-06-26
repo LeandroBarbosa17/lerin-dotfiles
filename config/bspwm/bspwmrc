@@ -24,6 +24,11 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 
 MonitorSetup
 
+xset s off
+xset -dpms
+xset s noblank
+
+
 #  ╔╗ ╔═╗╔═╗╦ ╦╔╦╗  ╔═╗╔═╗╔╗╔╔═╗╦╔═╗
 #  ╠╩╗╚═╗╠═╝║║║║║║  ║  ║ ║║║║╠╣ ║║ ╦
 #  ╚═╝╚═╝╩  ╚╩╝╩ ╩  ╚═╝╚═╝╝╚╝╚  ╩╚═╝

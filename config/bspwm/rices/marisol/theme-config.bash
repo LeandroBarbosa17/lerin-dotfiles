@@ -109,5 +109,5 @@ spicetify_colorscheme="Dracula"
 ENGINE="Default"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
-DEFAULT_WALL="$HOME/.config/bspwm/rices/marisol/walls/wall-01.webp"
+DEFAULT_WALL="/home/leandro/.config/bspwm/rices/marisol/walls/2015800-final.png"
 ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"

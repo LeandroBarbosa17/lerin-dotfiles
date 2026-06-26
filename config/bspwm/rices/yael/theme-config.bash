@@ -109,5 +109,5 @@ spicetify_colorscheme="Base"
 ENGINE="Default"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
-DEFAULT_WALL="$HOME/.config/bspwm/rices/yael/walls/wall-01.webp"
+DEFAULT_WALL="/home/leandro/.config/bspwm/rices/yael/walls/wall-02.webp"
 ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"
