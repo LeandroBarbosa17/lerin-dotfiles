@@ -99,6 +99,11 @@ helix_theme="modus_vivendi_tritanopia"
 spicetify_theme="Dreary"
 spicetify_colorscheme="Psycho"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="0.88:1:0.72"
+XRANDR_BRIGHTNESS="0.88"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)

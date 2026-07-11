@@ -99,6 +99,11 @@ helix_theme="kanagawa-dragon"
 spicetify_theme="text"
 spicetify_colorscheme="Kanagawa"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="1:0.82:0.72"
+XRANDR_BRIGHTNESS="0.90"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Desativa o desligamento do monitor
+xset -dpms
+xset s off
+
+# Inicia o PCSX2
+pcsx2 "$@"
+
+# Restaura a configuração original
+xset +dpms
+xset dpms 0 0 600

@@ -251,6 +251,9 @@
         (label :class "keys" :xalign 0 :text "Pavucontrol")
         (label :class "keys-alt" :xalign 1 :text "Super + p"))
       (box :orientation "h" :space-evenly "true"
+        (label :class "keys" :xalign 0 :text "usercard")
+        (label :class "keys-alt" :xalign 1 :text "Super + c"))  
+      (box :orientation "h" :space-evenly "true"
         (label :class "category-power" :xalign 0.5 :text "Power")
         (label :text ""))
       (box :orientation "h" :space-evenly "true"

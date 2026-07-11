@@ -160,7 +160,7 @@ install_dependencies() {
     sleep 2
 
     sudo pacman -Syy
-    dependencies="alacritty base-devel bat brightnessctl bspwm clipcat dunst eza feh fzf thunar tumbler gvfs-mtp firefox geany git imagemagick jq jgmenu kitty libwebp maim mpc mpd mpv neovim xcolor ncmpcpp npm pamixer pacman-contrib papirus-icon-theme picom playerctl polybar lxsession python-gobject redshift rofi rustup sxhkd xclip xdg-user-dirs xdo xdotool xsettingsd xorg-xdpyinfo xorg-xkill xorg-xprop xorg-xrandr xorg-xsetroot xorg-xwininfo xorg-xrdb yazi zsh zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting ttf-inconsolata ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-terminus-nerd ttf-ubuntu-mono-nerd webp-pixbuf-loader helix btop fastfetch os-prober xorg-xset unzip noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra chromium chromium-widevine"
+    dependencies="alacritty base-devel bat brightnessctl bspwm clipcat dunst eza feh fzf thunar tumbler gvfs-mtp firefox geany git imagemagick jq jgmenu kitty libwebp maim mpc mpd mpv neovim xcolor ncmpcpp npm pamixer pacman-contrib papirus-icon-theme picom playerctl polybar lxsession python-gobject redshift rofi rustup sxhkd xclip xdg-user-dirs xdo xdotool xsettingsd xorg-xdpyinfo xorg-xkill xorg-xprop xorg-xrandr xorg-xsetroot xorg-xwininfo xorg-xrdb yazi zsh zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting ttf-inconsolata ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-terminus-nerd ttf-ubuntu-mono-nerd webp-pixbuf-loader helix btop fastfetch os-prober xorg-xset unzip noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra"
 
     # Arrays temporales
     failed_deps=""
@@ -302,15 +302,15 @@ install_aur_dependencies() {
     logo "Installing AUR dependencies..."
     sleep 2
 
-    if ! command -v yay >/dev/null 2>&1; then
+    if ! command -v paru >/dev/null 2>&1; then
         printf "%b\n" "${BLD}${CYE}Installing YAY${CNC}"
-        git clone https://aur.archlinux.org/yay.git
-        cd yay
+        git clone https://aur.archlinux.org/paru.git
+        cd paru
         makepkg -si
         cd
     fi
 
-    aur_dependencies="xwinwrap-0.9-bin i3lock-color simple-mtpfs fzf-tab-git spotify"
+    aur_dependencies="xwinwrap-0.9-bin i3lock-color simple-mtpfs fzf-tab-git spotify brave-bin"
 
     # Arrays temporales
     failed_aur_deps=""

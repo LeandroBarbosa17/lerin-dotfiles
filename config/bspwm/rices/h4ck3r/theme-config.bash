@@ -96,6 +96,11 @@ gtk_icons="Hack"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-HackTheBox"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="0.78:1:0.72"
+XRANDR_BRIGHTNESS="0.90"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)

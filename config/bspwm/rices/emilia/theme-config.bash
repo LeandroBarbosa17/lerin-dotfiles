@@ -96,8 +96,13 @@ gtk_icons="TokyoNight-SE"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-TokyoNight"
 helix_theme="tokyonight_moon"
-spicetify_theme="text"
-spicetify_colorscheme="TokyoNight"
+spicetify_theme="Ziro"
+spicetify_colorscheme="blue-dark"
+
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="0.82:0.82:1"
+XRANDR_BRIGHTNESS="0.94"
 
 # Wallpaper engine
 # Available engines:

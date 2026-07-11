@@ -99,6 +99,11 @@ helix_theme="catppuccin_mocha"
 spicetify_theme="catppuccin"
 spicetify_colorscheme="mocha"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="1:0.88:0.95"
+XRANDR_BRIGHTNESS="0.92"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)
@@ -109,5 +114,5 @@ spicetify_colorscheme="mocha"
 ENGINE="Default"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
-DEFAULT_WALL="$HOME/.config/bspwm/rices/daniela/walls/wall-02.webp"
+DEFAULT_WALL="/home/leandro/.config/bspwm/rices/daniela/walls/wall-06.webp"
 ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"

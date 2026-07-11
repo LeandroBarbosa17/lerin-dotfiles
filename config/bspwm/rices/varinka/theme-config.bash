@@ -99,6 +99,11 @@ helix_theme="monochrome"
 spicetify_theme="Dreary"
 spicetify_colorscheme="mono"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="1:1:1"
+XRANDR_BRIGHTNESS="0.60"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)

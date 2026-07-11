@@ -30,8 +30,8 @@ arch_icon="#0f94d2"
 
 # Bspwm options
 BORDER_WIDTH="0"		# Bspwm border
-TOP_PADDING="1"
-BOTTOM_PADDING="40"
+TOP_PADDING="40"
+BOTTOM_PADDING="1"
 LEFT_PADDING="1"
 RIGHT_PADDING="1"
 NORMAL_BC="#b8bfe5"		# Normal border color
@@ -99,6 +99,11 @@ helix_theme="onedark"
 spicetify_theme="Dreary"
 spicetify_colorscheme="BIB"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="0.8:1:0.8"
+XRANDR_BRIGHTNESS="0.9"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)
@@ -109,5 +114,5 @@ spicetify_colorscheme="BIB"
 ENGINE="Default"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
-DEFAULT_WALL="$HOME/.config/bspwm/rices/isabel/walls/wall-04.webp"
+DEFAULT_WALL="/home/leandro/.config/bspwm/rices/isabel/walls/wall-03.webp"
 ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"

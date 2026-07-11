@@ -99,6 +99,11 @@ helix_theme="dracula_at_night"
 spicetify_theme="Sleek"
 spicetify_colorscheme="Dracula"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="0.88:0.80:1"
+XRANDR_BRIGHTNESS="0.92"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)

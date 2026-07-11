@@ -99,6 +99,11 @@ helix_theme="everforest_dark"
 spicetify_theme="text"
 spicetify_colorscheme="EverforestDarkHard"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="0.92:1:0.84"
+XRANDR_BRIGHTNESS="0.93"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)

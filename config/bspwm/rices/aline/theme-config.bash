@@ -99,6 +99,11 @@ helix_theme="rose_pine_dawn"
 spicetify_theme="catppuccin"
 spicetify_colorscheme="latte"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="1:0.92:0.82"
+XRANDR_BRIGHTNESS="0.98"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)

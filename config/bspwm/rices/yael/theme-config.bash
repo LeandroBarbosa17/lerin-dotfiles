@@ -99,6 +99,11 @@ helix_theme="carbon"
 spicetify_theme="SharkBlue"
 spicetify_colorscheme="Base"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="0.82:0.90:1"
+XRANDR_BRIGHTNESS="0.94"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)

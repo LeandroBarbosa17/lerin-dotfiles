@@ -99,6 +99,11 @@ helix_theme="amberwood"
 spicetify_theme="Sleek"
 spicetify_colorscheme="elementary"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="1:0.84:0.76"
+XRANDR_BRIGHTNESS="0.89"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)

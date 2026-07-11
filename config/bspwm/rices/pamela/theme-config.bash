@@ -99,6 +99,11 @@ helix_theme="adwaita-dark"
 spicetify_theme="Sleek"
 spicetify_colorscheme="bladerunner"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="1:0.86:0.97"
+XRANDR_BRIGHTNESS="0.94"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)

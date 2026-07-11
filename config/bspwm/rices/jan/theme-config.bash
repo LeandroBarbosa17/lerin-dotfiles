@@ -99,6 +99,11 @@ helix_theme="lucy"
 spicetify_theme="Nightlight"
 #spicetify_colorscheme="catppuccin-latte"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="0.75:0.70:1"
+XRANDR_BRIGHTNESS="0.95"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)
@@ -109,5 +114,5 @@ spicetify_theme="Nightlight"
 ENGINE="Default"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
-DEFAULT_WALL="$HOME/.config/bspwm/rices/jan/walls/wall-01.webp"
+DEFAULT_WALL="/home/leandro/.config/bspwm/rices/jan/walls/wall-02.webp"
 ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"

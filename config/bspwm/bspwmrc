@@ -25,9 +25,10 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 MonitorSetup
 
 xset s off
-xset -dpms
-xset s noblank
+xset +dpms
+xset dpms 0 0 600
 
+xrandr --output HDMI-A-1 --mode 1600x900 --rate 75
 
 #  ╔╗ ╔═╗╔═╗╦ ╦╔╦╗  ╔═╗╔═╗╔╗╔╔═╗╦╔═╗
 #  ╠╩╗╚═╗╠═╝║║║║║║  ║  ║ ║║║║╠╣ ║║ ╦

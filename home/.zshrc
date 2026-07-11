@@ -155,8 +155,77 @@ alias cat="bat --theme=base16"
 alias ls='eza --icons=always --color=always -a'
 alias ll='eza --icons=always --color=always -la'
 
+# Restaurar cores normais
+alias normal='xrandr --output HDMI-A-1 --gamma 1:1:1 --brightness 1'
+
+# Roxo intenso
+alias purple='xrandr --output HDMI-A-1 --gamma 1:0.6:1 --brightness 0.6'
+
+# Azul intenso
+alias blue='xrandr --output HDMI-A-1 --gamma 0.6:0.6:1'
+
+# Rosa intenso
+alias pink='xrandr --output HDMI-A-1 --gamma 1:0.5:0.7'
+
+# Verde intenso
+alias green='xrandr --output HDMI-A-1 --gamma 0.6:1:0.6 --brightness 0.6'
+
+# Ciano intenso
+alias cyan='xrandr --output HDMI-A-1 --gamma 0.5:1:1 --brightness 0.6'
+
+# Amarelo intenso
+alias yellow='xrandr --output HDMI-A-1 --gamma 1:1:0.5 --brightness 0.6'
+
+# Laranja intenso
+alias orange='xrandr --output HDMI-A-1 --gamma 1:0.75:0.4 --brightness 0.6'
+
+# Vermelho intenso
+alias red='xrandr --output HDMI-A-1 --gamma 1:0.5:0.5'
+
+# Lavanda
+alias lavender='xrandr --output HDMI-A-1 --gamma 0.9:0.5:1'
+
+# Magenta
+alias magenta='xrandr --output HDMI-A-1 --gamma 1:0.4:0.9'
+
+# Turquesa
+alias turquoise='xrandr --output HDMI-A-1 --gamma 0.4:1:0.9 --brightness 0.6'
+
+# Lima (verde-amarelado)
+alias lime='xrandr --output HDMI-A-1 --gamma 0.8:1:0.3 --brightness 0.6'
+
+# Âmbar
+alias amber='xrandr --output HDMI-A-1 --gamma 1:0.8:0.2 --brightness 0.6'
+
+# =====================
+# PASTÉIS (sutil/clean) - brightness 0.9
+# =====================
+alias pastel-peach='xrandr --output HDMI-A-1 --gamma 1:0.75:0.65 --brightness 0.9'
+alias pastel-mint='xrandr --output HDMI-A-1 --gamma 0.8:1:0.8 --brightness 0.9'
+alias pastel-sky='xrandr --output HDMI-A-1 --gamma 0.7:0.9:1.1 --brightness 0.9'
+alias pastel-lavender='xrandr --output HDMI-A-1 --gamma 0.92:0.7:1.05 --brightness 0.9'
+alias pastel-rose='xrandr --output HDMI-A-1 --gamma 1:0.75:0.9 --brightness 0.9'
+alias pastel-lemon='xrandr --output HDMI-A-1 --gamma 1.05:1:0.8 --brightness 0.9'
+alias pastel-lime='xrandr --output HDMI-A-1 --gamma 0.85:1:0.7 --brightness 0.9'
+alias pastel-ice='xrandr --output HDMI-A-1 --gamma 0.95:0.98:1.05 --brightness 0.9'
+
+# =====================
+# NEON
+# =====================
+alias neon-fuchsia='xrandr --output HDMI-A-1 --gamma 1:0.35:1 --brightness 1'
+alias neon-cyan='xrandr --output HDMI-A-1 --gamma 0.3:1:1 --brightness 1'
+alias neon-green='xrandr --output HDMI-A-1 --gamma 0.35:1:0.35 --brightness 1'
+alias neon-blue='xrandr --output HDMI-A-1 --gamma 0.25:0.5:1 --brightness 1'
+alias neon-yellow='xrandr --output HDMI-A-1 --gamma 1:1:0.25 --brightness 1'
+alias neon-orange='xrandr --output HDMI-A-1 --gamma 1:0.7:0.25 --brightness 1'
+alias neon-red='xrandr --output HDMI-A-1 --gamma 1:0.25:0.25 --brightness 1'
+alias neon-purple='xrandr --output HDMI-A-1 --gamma 1:0.5:1 --brightness 1'
+
+
 #  ┌─┐┬ ┬┌┬┐┌─┐  ┌─┐┌┬┐┌─┐┬─┐┌┬┐
 #  ├─┤│ │ │ │ │  └─┐ │ ├─┤├┬┘ │
 #  ┴ ┴└─┘ ┴ └─┘  └─┘ ┴ ┴ ┴┴└─ ┴
 $HOME/.local/bin/colorscript -r
 #disable-fzf-tab
+
+export PATH=$PATH:/home/leandro/.spicetify

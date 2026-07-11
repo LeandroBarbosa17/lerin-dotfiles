@@ -99,6 +99,11 @@ helix_theme="nord-night"
 spicetify_theme="Sleek"
 spicetify_colorscheme="Nord"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="0.78:0.88:1"
+XRANDR_BRIGHTNESS="0.93"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)

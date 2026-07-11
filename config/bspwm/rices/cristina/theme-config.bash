@@ -99,6 +99,11 @@ helix_theme="rose_pine_moon"
 export spicetify_theme="Ziro"
 export spicetify_colorscheme="rose-pine-moon"
 
+# Xrandr Screen Filter
+XRANDR_FILTER="true"
+XRANDR_GAMMA="1:0.76:0.91"
+XRANDR_BRIGHTNESS="0.91"
+
 # Wallpaper engine
 # Available engines:
 # - Random  (Set a random wallpaper from Walls rice directory)
