@@ -1,150 +1,137 @@
-# Helix 2077 Theme
-# Ported from VSCode "2077" Theme
-# Vibrant Cyberpunk Aesthetic
+# ========================== Syntax ==========================
 
-# Attribute Highlight 
 'attribute' = { fg = 'yellow' }
 
-# Constructor Highlight
-'constructor' = { fg = 'pink', modifiers = ['bold'] }
+'constructor' = { fg = 'blue', modifiers = ['bold'] }
 
-# Constant Highlights
-'constant' = { fg = 'purple' }
-'constant.builtin' = { fg = 'pink' }
+'constant' = { fg = 'red' }
+'constant.builtin' = { fg = 'red' }
 'constant.numeric' = { fg = 'yellow' }
-'constant.character' = { fg = 'purple' }
+'constant.character' = { fg = 'green' }
 
-# String Highlights
-'string' = { fg = 'cyan' }
-'string.regexp' = { fg = 'magenta' }
+'string' = { fg = 'green' }
+'string.regexp' = { fg = 'yellow' }
 
-# Comment Highlights
-'comment' = { fg = 'comment_blue', modifiers = ['italic'] }
+'comment' = { fg = 'black', modifiers = ['italic'] }
 
-# Variable Highlights
-'variable' = { fg = 'pink' }
-'variable.builtin' = { fg = 'pink' }
-'variable.parameter' = { fg = 'pink' }
-'variable.other.member' = { fg = 'blue_alt' }
+'variable' = { fg = 'fg' }
+'variable.builtin' = { fg = 'cyan' }
+'variable.parameter' = { fg = 'white' }
+'variable.other.member' = { fg = 'blueb' }
 
-# Label Highlights
 'label' = { fg = 'yellow' }
 
-# Punctuation Highlights
-'punctuation' = { fg = 'yellow_soft' }
-'punctuation.bracket' = { fg = 'yellow_soft' }
-'punctuation.delimiter' = { fg = 'yellow_soft' }
+'punctuation' = { fg = 'whiteb' }
+'punctuation.bracket' = { fg = 'whiteb' }
+'punctuation.delimiter' = { fg = 'whiteb' }
 
-# Keyword Highlights
-'keyword' = { fg = 'magenta_neon', modifiers = ['bold'] }
-'keyword.control' = { fg = 'magenta_neon', modifiers = ['bold'] }
+'keyword' = { fg = 'red', modifiers = ['bold'] }
+'keyword.control' = { fg = 'red', modifiers = ['bold'] }
 'keyword.control.import' = { fg = 'cyan' }
 
-# Operator Highlights
-'operator' = { fg = 'magenta_neon' }
+'operator' = { fg = 'yellow' }
 
-# Directive Highlights
-'directive' = { fg = 'magenta_neon' }
+'directive' = { fg = 'magenta' }
+
 'special' = { fg = 'yellow' }
 
-# Namespace Highlights
-'namespace' = { fg = 'purple', modifiers = ['italic'] }
+'namespace' = { fg = 'magentab', modifiers = ['italic'] }
 
-# Function Highlights 
-'function' = { fg = 'blue_light' }
+'function' = { fg = 'blue' }
+'function.method' = { fg = 'cyan' }
 'function.builtin' = { fg = 'yellow' }
-'function.method' = { fg = 'blue_light' }
 
-# Tag Highlights 
-'tag' = { fg = 'pink' }
+'tag' = { fg = 'red' }
 
-# Type Highlights 
-'type' = { fg = 'pink' }
-'type.builtin' = { fg = 'magenta_neon', modifiers = ['italic'] }
+'type' = { fg = 'magenta', modifiers = ['bold'] }
+'type.builtin' = { fg = 'magentab', modifiers = ['italic'] }
 
-# Markup Highlights (Markdown, etc.)
-'markup.heading' = { fg = 'pink', modifiers = ['bold'] }
-'markup.bold' = { fg = 'pink', modifiers = ['bold'] }
-'markup.italic' = { fg = 'pink', modifiers = ['italic'] }
-'markup.link.url' = { fg = 'magenta' }
-'markup.link.text' = { fg = 'pink' }
-'markup.list' = { fg = 'pink' }
-'markup.raw' = { fg = 'white' }
+# ========================== Markdown ==========================
 
-# Diff Highlights
-'diff.delta' = { fg = 'blue_light' }
-'diff.minus' = { fg = 'pink' }
-'diff.plus' = { fg = 'yellow' }
+'markup.heading' = { fg = 'red', modifiers = ['bold'] }
+'markup.bold' = { fg = 'yellow', modifiers = ['bold'] }
+'markup.italic' = { fg = 'cyan', modifiers = ['italic'] }
+'markup.link.url' = { fg = 'blue' }
+'markup.link.text' = { fg = 'cyan' }
+'markup.list' = { fg = 'yellow' }
+'markup.raw' = { fg = 'green' }
 
-# ========================== INTERFACE ========================= 
+# ========================== Diff ==========================
+
+'diff.delta' = { fg = 'blue' }
+'diff.minus' = { fg = 'red' }
+'diff.plus' = { fg = 'green' }
+
+# ========================== UI ==========================
 
 'ui.background' = { bg = 'bg' }
+
 'ui.text' = { fg = 'fg' }
-'ui.cursor' = { bg = 'neon_pink', fg = 'bg' }
-'ui.window' = { fg = 'comment_blue' }
 
-'ui.linenr' = { fg = 'neon_pink', bg = 'bg' }
-'ui.linenr.selected' = { fg = 'blue_alt', bg = 'bg', modifiers = ['bold'] }
+'ui.cursor' = { fg = 'bg', bg = 'red' }
 
-'ui.statusline' = { fg = 'blue_alt', bg = 'status_bg' }
-'ui.statusline.inactive' = { fg = 'comment_blue', bg = 'bg' }
+'ui.window' = { fg = 'black' }
 
-'ui.bufferline' = { fg = 'blue_alt', bg = 'tab_inactive' }
-'ui.bufferline.active' = { fg = 'white', bg = 'tab_active', modifiers = ['bold'] }
+'ui.linenr' = { fg = 'black' }
+'ui.linenr.selected' = { fg = 'cyan', modifiers = ['bold'] }
 
-'ui.selection' = { bg = 'selection' }
-'ui.highlight' = { bg = 'line_highlight' }
-'ui.cursorline' = { bg = 'line_highlight' }
+'ui.statusline' = { fg = 'cyan', bg = 'accent_color' }
+'ui.statusline.inactive' = { fg = 'black' }
 
-'ui.menu' = { fg = 'fg', bg = 'widget_bg' }
-'ui.menu.selected' = { fg = 'white', bg = 'list_select' }
+'ui.bufferline' = { fg = 'black' }
+'ui.bufferline.active' = { fg = 'fg', bg = 'accent_color', modifiers = ['bold'] }
 
-'ui.popup' = { bg = 'widget_bg', fg = 'white' }
-'ui.popup.info' = { bg = 'widget_bg', fg = 'blue_alt', modifiers = ['bold'] }
+'ui.selection' = { bg = 'magentab' }
 
-'ui.virtual.ruler' = { bg = 'ruler_color' }
+'ui.highlight' = { bg = 'accent_color' }
 
-# Diagnostics
-'error' = { fg = 'error_red', modifiers = ['bold'] }
-'warning' = { fg = 'warning_yellow', modifiers = ['bold'] }
-'info' = { fg = 'info_purple', modifiers = ['bold'] }
+'ui.cursorline' = { bg = 'accent_color' }
+
+'ui.menu' = { fg = 'fg', bg = 'accent_color' }
+
+'ui.menu.selected' = { fg = 'bg', bg = 'cyan' }
+
+'ui.popup' = { fg = 'fg', bg = 'accent_color' }
+
+'ui.popup.info' = { fg = 'cyan', bg = 'accent_color', modifiers = ['bold'] }
+
+'ui.virtual.ruler' = { bg = 'blackb' }
+
+# ========================== Diagnostics ==========================
+
+'error' = { fg = 'red', modifiers = ['bold'] }
+'warning' = { fg = 'yellow', modifiers = ['bold'] }
+'info' = { fg = 'blue', modifiers = ['bold'] }
 'hint' = { fg = 'cyan', modifiers = ['bold'] }
 
-'diagnostic.error' = { underline = { color = 'error_red', style = 'curl' } }
-'diagnostic.warning' = { underline = { color = 'warning_yellow', style = 'curl' } }
-'diagnostic.info' = { underline = { color = 'info_purple', style = 'curl' } }
+'diagnostic.error' = { underline = { color = 'red', style = 'curl' } }
+'diagnostic.warning' = { underline = { color = 'yellow', style = 'curl' } }
+'diagnostic.info' = { underline = { color = 'blue', style = 'curl' } }
 'diagnostic.hint' = { underline = { color = 'cyan', style = 'curl' } }
 
+# ========================== Palette ==========================
+
 [palette]
-# Sintaxe extraída diretamente do seu JSON
-comment_blue = '#0098df'
-cyan         = '#0ef3ff'
-yellow       = '#ffd400'
-pink         = '#ff2e97'
-purple       = '#c832ff'
-magenta_neon = '#ff2cf1'
-blue_alt     = '#40a9ff'
-yellow_soft  = '#ffee80'
-blue_light   = '#39c0ff'
-magenta      = '#ff22f0'
-white        = '#ffffff'
 
-# Cores da Interface (UI) extraídas das chaves "colors" do VSCode
-bg             = '#030d22'
-fg             = '#fdfeff'
-neon_pink      = '#ee0077'
-selection      = '#310072'
-line_highlight = '#1c1347'
-ruler_color    = '#11215e'
+bg="#070219"
+fg="#27fbfe"
 
-# Widgets e Abas
-widget_bg      = '#04112c'
-status_bg      = '#0a0631'
-tab_active     = '#1d1641'
-tab_inactive   = '#141138'
-list_select    = '#073170'
+black="#626483"
+red="#fb007a"
+green="#a6e22e"
+yellow="#f3e430"
+blue="#19bffe"
+magenta="#6800d2"
+cyan="#43fbff"
+white="#d5ddee"
 
-# Mensagens/Diagnostics
-error_red      = '#ac077a'
-warning_yellow = '#fad46d'
-info_purple    = '#af21e7'
+blackb="#626483"
+redb="#fb007a"
+greenb="#a6e22e"
+yellowb="#f3e430"
+blueb="#58AFC2"
+magentab="#472575"
+cyanb="#926BCA"
+whiteb="#d5ddee"
+
+accent_color="#09021f"

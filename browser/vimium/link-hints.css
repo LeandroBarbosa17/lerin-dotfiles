@@ -1,0 +1,21 @@
+/* Caixa dos Link Hints */
+div > .vimiumHintMarker {
+    background: #1f2335;
+    border: 1px solid #7aa2f7;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(122,162,247,.35);
+    padding: 2px 4px;
+}
+
+/* Letras */
+div > .vimiumHintMarker span {
+    color: #c0caf5;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+/* Caracteres já digitados */
+div > .vimiumHintMarker > .matchingCharacter {
+    color: #7dcfff;
+}

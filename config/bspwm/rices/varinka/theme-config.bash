@@ -48,7 +48,7 @@ SHADOW_C="#000000"		# Shadow color
 P_CORNER_R="6"			# Corner radius (0 = disabled)
 P_BLUR="false"			# Blur true|false
 P_ANIMATIONS="@"		# (@ = enable) (# = disable)
-P_TERM_OPACITY="1.0"	# Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
+P_TERM_OPACITY="0.7" # Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
 
 # Dunst
 dunst_offset='(0, 60)'
@@ -102,7 +102,7 @@ spicetify_colorscheme="mono"
 # Xrandr Screen Filter
 XRANDR_FILTER="true"
 XRANDR_GAMMA="1:1:1"
-XRANDR_BRIGHTNESS="0.60"
+XRANDR_BRIGHTNESS="0.80"
 
 # Wallpaper engine
 # Available engines:
@@ -111,8 +111,8 @@ XRANDR_BRIGHTNESS="0.60"
 # - Default (Sets a specific image as wallpaper) *Default
 # - Animated (Set an animated wallpaper. "mp4, mkv, gif")
 # - Slideshow (Change randomly every 15 minutes your wallpaper from Walls rice directory)
-ENGINE="Default"
+ENGINE="Animated"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
 DEFAULT_WALL="/home/leandro/.config/bspwm/rices/varinka/walls/463609.jpg"
-ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"
+ANIMATED_WALL="/home/leandro/.config/bspwm/config/assets/zenitsu-white.960x540.mp4"

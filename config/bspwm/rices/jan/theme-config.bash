@@ -48,7 +48,7 @@ SHADOW_C="#000000"		# Shadow color
 P_CORNER_R="0"			# Corner radius (0 = disabled)
 P_BLUR="false"			# Blur true|false
 P_ANIMATIONS="@"		# (@ = enable) (# = disable)
-P_TERM_OPACITY="0.96"	# Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
+P_TERM_OPACITY="0.7" # Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
 
 # Dunst
 dunst_offset='(20, 60)'
@@ -95,7 +95,7 @@ gtk_theme="CyberPunk-zk"
 gtk_icons="BeautyLine"
 gtk_cursor="Qogirr-Dark"
 geany_theme="z0mbi3-CyberPunk"
-helix_theme="lucy"
+helix_theme="2077"
 spicetify_theme="Nightlight"
 #spicetify_colorscheme="catppuccin-latte"
 
@@ -111,8 +111,8 @@ XRANDR_BRIGHTNESS="0.95"
 # - Default (Sets a specific image as wallpaper) *Default
 # - Animated (Set an animated wallpaper. "mp4, mkv, gif")
 # - Slideshow (Change randomly every 15 minutes your wallpaper from Walls rice directory)
-ENGINE="Default"
+ENGINE="Animated"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
 DEFAULT_WALL="/home/leandro/.config/bspwm/rices/jan/walls/wall-02.webp"
-ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"
+ANIMATED_WALL="/home/leandro/.config/bspwm/config/assets/anime-girl-night-view.960x540.mp4"

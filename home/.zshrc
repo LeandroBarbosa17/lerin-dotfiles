@@ -225,7 +225,8 @@ alias neon-purple='xrandr --output HDMI-A-1 --gamma 1:0.5:1 --brightness 1'
 #  ┌─┐┬ ┬┌┬┐┌─┐  ┌─┐┌┬┐┌─┐┬─┐┌┬┐
 #  ├─┤│ │ │ │ │  └─┐ │ ├─┤├┬┘ │
 #  ┴ ┴└─┘ ┴ └─┘  └─┘ ┴ ┴ ┴┴└─ ┴
-$HOME/.local/bin/colorscript -r
+#$HOME/.local/bin/colorscript -r
 #disable-fzf-tab
+fastfetch
 
 export PATH=$PATH:/home/leandro/.spicetify
